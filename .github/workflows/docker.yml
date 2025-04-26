@@ -49,4 +49,4 @@ jobs:
           file: ./app/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: Artur-Mtz/flask-devops-app:latest
+          tags: arturemz/flask-devops-app:latest
