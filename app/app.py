@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return jsonify({"message": "¡Hola desdefgerhr Flask en Docker!2"})
+    return jsonify({ "Actividad 3 finalizada wowowowow"})
 
 if __name__=="__main__":
     port = int(os.environ.get("PORT", 5000))
