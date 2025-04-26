@@ -18,7 +18,7 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Build Docker image
-        run: docker build -t flask-devops-app ./app
+        run: docker build -t arturemz/flask-devops-app:latest ./app
 
       - name: Run Docker Compose
         run: docker compose -f docker-compose.yml up -d
